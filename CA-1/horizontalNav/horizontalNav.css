@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+nav {
+	background: #000;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* list items */
+ul.horizontal-menu li {
+	display: inline;
+	margin-right: 1rem;
+}
+
+/* Links */
+ul.horizontal-menu li a {
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid #333;
+	background-color: #333;
+	color: #fff;
+}
+
+/* Hover */
+ul.horizontal-menu li a:hover {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid yellowgreen;
+	border-radius: 20px;
+	transition: 400ms;
+}
